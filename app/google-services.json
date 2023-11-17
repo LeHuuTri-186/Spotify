@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "467321254972",
+    "firebase_url": "https://musicapp-e3afd-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "musicapp-e3afd",
+    "storage_bucket": "musicapp-e3afd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:467321254972:android:34897da5f576192c7ebf39",
+        "android_client_info": {
+          "package_name": "com.example.linkmusicapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDj5eZNHXLvADVjBdrY_xP3GzDyfwc5Jj8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:467321254972:android:add52d6a69949dab7ebf39",
+        "android_client_info": {
+          "package_name": "com.example.spotify"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDj5eZNHXLvADVjBdrY_xP3GzDyfwc5Jj8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

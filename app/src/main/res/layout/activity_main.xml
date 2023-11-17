@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_gray"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+<!--    <com.google.android.material.tabs.TabLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="@color/black"-->
+<!--        android:id="@+id/tab_layout"-->
+<!--        app:tabIndicatorFullWidth="true"-->
+<!--        app:tabIndicatorGravity="center"-->
+<!--        app:tabTextColor="@color/white"-->
+<!--        app:tabIndicatorHeight="40dp"-->
+<!--        />-->
+<!--    <androidx.viewpager.widget.ViewPager-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:id="@+id/viewpaper"/>-->
+
+        <FrameLayout
+            android:id="@+id/mainFrameContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </FrameLayout>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_corner_background"
+        app:backgroundTint="@color/light_green"
+        app:menu="@menu/bottom_menu"
+        android:layout_alignParentBottom="true"
+        />
+
+    <FrameLayout
+        android:id="@+id/mainFramePlayBarContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottomNavigationView"
+        android:layout_margin="10dp"/>
+
+</RelativeLayout>
